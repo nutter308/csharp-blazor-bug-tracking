@@ -11,8 +11,10 @@
 
 @code {
     public Bug AddBug { get; set; } = new Bug();
+
     [Inject]
     public IBugService BugService { get; set; }
+
     [Inject]
     NavigationManager NavService { get; set; }
 
